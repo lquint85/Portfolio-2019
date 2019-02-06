@@ -65,8 +65,9 @@
 }
 
 /* - - - - - - - - - - -Footer - - - - - - - - -*/
-#footer {}
-    font-size: 1rem;
+#footer {
+    padding: 20px;
+    font-size: .85rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: grey;
