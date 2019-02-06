@@ -1,27 +1,28 @@
-/*navbar*/
 
-.uk-navbar-container-primary {
-    height: 8%;
-    background: white;
-}
 
-#navbarh1 {
 
-    font-family: 'Times New Roman', Times, serif;
-    color: transparent;
-}
+/* - - - - - - - - - - -NavBar- - - - - - - - -*/
+
 
 #menuIcon {
     height: 20px;
-    margin-top: 13px;
     margin-left: 40px;
+    color: white;
 
 }
 
 #logo-small {
     margin-left: 10px;
     padding: 100px;
+    color: white;
 
+}
+#nameLogo {
+    margin-top: -27px;
+    margin-Left: 80px;
+    font-size: 1.75rem;
+    color: white;
+    
 }
 
 
@@ -38,6 +39,7 @@
 }
 
 #section1p1 {
+  
     color: white;
 }
 
@@ -63,9 +65,9 @@
 }
 
 /* - - - - - - - - - - -Footer - - - - - - - - -*/
-#footer {
-    margin-top: 15px;
+#footer {}
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
     color: grey;
 }
