@@ -1,3 +1,6 @@
+body{
+    background-color: orange;
+}
 
 
 
@@ -7,7 +10,21 @@
 #menuIcon {
     height: 20px;
     margin-left: 40px;
+  color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    color: #FFFFFF;
+
+
+}
+#navName {
+    height: 20px;
+    margin-top: -19px;
+    margin-left: 1175px;
     color: white;
+    font-family: "Mukta";
+    font-size: 1.75rem;
+   
+
 
 }
 
@@ -17,41 +34,52 @@
     color: white;
 
 }
+
 #nameLogo {
     margin-top: -27px;
     margin-Left: 80px;
     font-size: 1.75rem;
     color: white;
-    
+
 }
 
 
 /* - - - - - - - - - - -Section 1 - - - - - - - - -*/
 #section1 {
-
-    background-image: url('../images/bg_section1.1.jpg');
+   
+    background-image: url('../images/bg_section1.3.jpg');
+    border: double white .95rem;
+    
+   
+    
 }
 
-#section1-h1 {
- 
+
+#section1-h1-1 {
+    margin-top: 20%;
+  
     color: white;
+    font-size: 2rem;
+    
+
+
 
 }
+
 #section1-h1-2 {
- margin-top: 20%;
- padding: 2%; 
+    
     color: white;
 
 }
 
 #section1p1 {
-  
+
     color: white;
 }
 
 /* - - - - - - - - - - -Section 2 - - - - - - - - -*/
 #section2 {
-    background-image: url('../images/bg_section1.0.jpg');
+    background-image: url('../images/bg_section1.jpg');
     padding: 15%;
     color: white;
 }
