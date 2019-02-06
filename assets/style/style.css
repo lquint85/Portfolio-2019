@@ -1,6 +1,4 @@
-body{
-    background-color: orange;
-}
+
 
 
 
@@ -10,22 +8,21 @@ body{
 #menuIcon {
     height: 20px;
     margin-left: 40px;
-  color: #FFFFFF;
+    color: #FFFFFF;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
     color: #FFFFFF;
 
 
 }
+
 #navName {
     height: 20px;
     margin-top: -19px;
-    margin-left: 1175px;
+    margin-left: 1125px;
     color: white;
-    font-family: "Mukta";
+    font-family: "PT Sans";
     font-size: 1.75rem;
-   
-
-
+    font-weight: bolder;
 }
 
 #logo-small {
@@ -37,7 +34,7 @@ body{
 
 #nameLogo {
     margin-top: -27px;
-    margin-Left: 80px;
+    margin-Left: 90px;
     font-size: 1.75rem;
     color: white;
 
@@ -46,28 +43,22 @@ body{
 
 /* - - - - - - - - - - -Section 1 - - - - - - - - -*/
 #section1 {
-   
+
     background-image: url('../images/bg_section1.3.jpg');
-    border: double white .95rem;
-    
-   
-    
+    border: double white 1.9rem;
 }
 
 
 #section1-h1-1 {
     margin-top: 20%;
-  
+
     color: white;
-    font-size: 2rem;
-    
-
-
+    font-size: 2.3rem;
 
 }
 
 #section1-h1-2 {
-    
+
     color: white;
 
 }
@@ -79,7 +70,7 @@ body{
 
 /* - - - - - - - - - - -Section 2 - - - - - - - - -*/
 #section2 {
-    background-image: url('../images/bg_section1.jpg');
+    background-image: url('../images/bg_section1.1.jpg');
     padding: 15%;
     color: white;
 }
@@ -100,9 +91,12 @@ body{
 
 /* - - - - - - - - - - -Footer - - - - - - - - -*/
 #footer {
-    padding: 20px;
-    font-size: .85rem;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: grey;
+ height: 30px;
+    padding: 50px;
+    font-size: .95rem;
+    font-family: "PT Sans";
+    background-color: lightcoral;
+    color:  white;
+
+   
 }
