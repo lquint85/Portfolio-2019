@@ -1,0 +1,71 @@
+/*navbar*/
+
+.uk-navbar-container-primary {
+    height: 8%;
+    background: white;
+}
+
+#navbarh1 {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: transparent;
+}
+
+#menuIcon {
+    height: 20px;
+    margin-top: 13px;
+    margin-left: 40px;
+
+}
+
+#logo-small {
+    margin-left: 10px;
+    padding: 100px;
+
+}
+
+
+/* - - - - - - - - - - -Section 1 - - - - - - - - -*/
+#section1 {
+
+    background-image: url('../images/bg_section1.1.jpg');
+}
+
+#section1h1 {
+    padding: 25%;
+    color: white;
+
+}
+
+#section1p1 {
+    color: white;
+}
+
+/* - - - - - - - - - - -Section 2 - - - - - - - - -*/
+#section2 {
+    background-image: url('../images/bg_section1.0.jpg');
+    padding: 15%;
+    color: white;
+}
+
+/* - - - - - - - - - - -Section 3 - - - - - - - - -*/
+#section3 {
+    background-color: cadetblue;
+
+}
+
+#section3h1 {
+    padding: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+
+}
+
+/* - - - - - - - - - - -Footer - - - - - - - - -*/
+#footer {
+    margin-top: 15px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
