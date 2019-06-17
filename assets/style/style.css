@@ -77,8 +77,9 @@
 /* - - - - - - - - - - - about me section- - - - - - - - -*/
 #About-Me {
   background-color: black;
-  height: 400px;
-  width: 14m0px;
+  height: 700px;
+  width: 1400px;
+  margin-left: 20px;
   border: double white 1.9rem;
 }
 p {
@@ -106,8 +107,8 @@ p {
     padding: 50px;
     font-size: .95rem;
     font-family: "PT Sans";
-    background-color: lightcoral;
-    color:  white;
+    background-color: white;
+    color: black;
     opacity: .7;
 
    
