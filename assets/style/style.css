@@ -74,6 +74,17 @@
     padding: 15%;
     color: white;
 }
+/* - - - - - - - - - - - about me section- - - - - - - - -*/
+#About-Me {
+  background-color: black;
+  height: 400px;
+  width: 14m0px;
+  border: double white 1.9rem;
+}
+p {
+    color: white;
+}
+
 
 /* - - - - - - - - - - -Section 3 - - - - - - - - -*/
 #section3 {
