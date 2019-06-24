@@ -15,6 +15,10 @@
 
 }
 
+#menuIcon :hover {
+    color: red;
+}
+
 #navName {
     height: 20px;
     margin-top: -19px;
