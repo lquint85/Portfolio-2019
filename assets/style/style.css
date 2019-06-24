@@ -91,15 +91,18 @@
 /* - - - - - - - - - - - about me section- - - - - - - - -*/
 #About-Me {
   background-color: black;
-  height: 700px;
+  height: 800px;
   width: 1400px;
   margin-left: 20px;
-  border: double white 1.9rem;
 }
 p {
     color: white;
 }
-
+/* - - - - - - - - - - - Landing- - - - - - - - -*/
+#chevrondown {
+    color: white;
+    margin: 40px 20px 40px 670px;
+}
 
 /* - - - - - - - - - - -Section 3 - - - - - - - - -*/
 #section3 {
@@ -117,13 +120,12 @@ p {
 
 /* - - - - - - - - - - -Footer - - - - - - - - -*/
 #footer {
- height: 30px;
-    padding: 50px;
+    height: 10px;
+    padding: 70px;
     font-size: .95rem;
+    font-weight: bold;
     font-family: "PT Sans";
-    background-color: white;
-    color: black;
-    opacity: .7;
-
+    background-color:skyblue ;
+    color: white;
    
 }
