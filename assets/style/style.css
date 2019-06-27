@@ -84,15 +84,17 @@ body {
     color: white;
 }
 
-/* - - - - - - - - - - -Section 2 - - - - - - - - -*/
+/* - - - - - - - - - - -Section 2 - - - - - - - - -
 #section2 {
     background-image: url('../images/bg_section1.1.jpg');
     padding: 15%;
     
-}
+} */
+
+
 /* - - - - - - - - - - - about me section- - - - - - - - -*/
 #About-Me {
-  background-color: black;
+  background-image: url('../images/bg_section1.0.jpg');
   height: 800px;
   width: 1400px;
   margin-left: 20px;
