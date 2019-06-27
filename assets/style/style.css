@@ -1,5 +1,7 @@
 
-
+body {
+    background: black;
+}
 
 
 /* - - - - - - - - - - -NavBar- - - - - - - - -*/
@@ -86,7 +88,7 @@
 #section2 {
     background-image: url('../images/bg_section1.1.jpg');
     padding: 15%;
-    color: white;
+    
 }
 /* - - - - - - - - - - - about me section- - - - - - - - -*/
 #About-Me {
