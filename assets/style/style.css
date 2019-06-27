@@ -1,6 +1,6 @@
 
 body {
-    background: black;
+    background:skyblue;
 }
 
 
@@ -94,13 +94,18 @@ body {
 
 /* - - - - - - - - - - - about me section- - - - - - - - -*/
 #About-Me {
-  background-image: url('../images/bg_section1.0.jpg');
-  height: 800px;
+ background-color: skyblue;
+  height: 600px;
   width: 1400px;
   margin-left: 20px;
 }
-p {
+#p1 {
     color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 2em;
+    margin: 40px 60px 80px 60px;
+    padding: 120px;
 }
 /* - - - - - - - - - - - Landing- - - - - - - - -*/
 #chevrondown {
@@ -124,12 +129,12 @@ p {
 
 /* - - - - - - - - - - -Footer - - - - - - - - -*/
 #footer {
-    height: 10px;
-    padding: 70px;
+    height: 6px;
+    padding: 40px;
     font-size: .95rem;
     font-weight: bold;
     font-family: "PT Sans";
-    background-color:skyblue ;
+    background-color:#1C203E;
     color: white;
    
 }
