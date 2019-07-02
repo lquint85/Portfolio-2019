@@ -115,9 +115,17 @@ margin-top: 20%;
        color: white;
        font-weight: bold;
        font-family: Arial, Helvetica, sans-serif; 
-       font-size: 1.8em;
+       font-size: 1.6em;
        margin: 0px 10px 80px 60px;
        padding: 20px;
+   }
+   #box {
+
+       border: solid;
+       height: 300px;
+       width: 300px;
+       margin-top: 60px;
+       margin-left: 60px;
    }
  
 
@@ -132,9 +140,10 @@ margin-top: 20%;
        color: white;
        font-weight: bold;
        font-family: Arial, Helvetica, sans-serif; 
-       font-size: 1.8em;
+       font-size: 1.9em;
        margin: 0px 10px 80px 60px;
        padding: 20px;
+      
    }
        
    #Capa_1 {
