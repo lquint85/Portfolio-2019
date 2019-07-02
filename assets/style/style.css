@@ -1,6 +1,5 @@
-
 body {
-    background:skyblue;
+    background: skyblue;
 }
 
 
@@ -49,9 +48,11 @@ body {
 #pj1 {
     margin-left: 42px;
 }
+
 #pj2 {
     margin-left: 42px;
 }
+
 #pj3 {
     margin-left: 42px;
 }
@@ -66,7 +67,7 @@ body {
 
 
 #section1-h1-1 {
-margin-top: 20%;
+    margin-top: 20%;
     color: white;
     font-size: 2.3rem;
 
@@ -95,10 +96,12 @@ margin-top: 20%;
     color: white;
     margin: 20px 20px 0px 670px;
 }
+
 #chevrondown2 {
     color: white;
     margin: 20px 20px 0px 680px;
 }
+
 #chevrondown3 {
     color: white;
     margin: 20px 20px 0px 685px;
@@ -107,73 +110,77 @@ margin-top: 20%;
 
 /* - - - - - - - - - - - Project Section- - - - - - - - -*/
 #projects {
-    background-color:#1C203E;
-     height: 830px;
-     width: 1440px;
-     margin-left: 0px auto;
-   }
+    background-color: #1C203E;
+    height: 830px;
+    width: 1440px;
+    margin-left: 0px auto;
+}
 
 #section1-h1-project {
     margin-left: 19px;
-   padding: 60px;
+    padding: 60px;
     color: white;
     font-size: 2.3rem;
 
 }
-   #p1 {
-       color: white;
-       font-weight: bold;
-       font-family: Arial, Helvetica, sans-serif; 
-       font-size: 1.6em;
-       margin: 0px 10px 80px 60px;
-       padding: 20px;
-   }
-   #box {
 
-       border: solid white ;
-       height: 300px;
-       width: 320px;
-       margin-top: 60px;
-       margin-left: 48px;
-   }
-   #project_pic {
-       height: 295px;
-       width: 320px;
-   }
- 
+#p1 {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    margin: 0px 10px 80px 60px;
+    padding: 20px;
+}
+
+#box {
+
+    border: solid white;
+    height: 300px;
+    width: 320px;
+    margin-top: 60px;
+    margin-left: 48px;
+}
+
+#project_pic {
+    height: 295px;
+    width: 320px;
+}
+
 
 /* - - - - - - - - - - - about me section- - - - - - - - -*/
 #About-Me {
     background-color: skyblue;
-     height: 800px;
-     width: 1440px;
-     border: double white 1.9rem;
-   }
-   #p1 {
-       color: white;
-       font-weight: bold;
-       font-family: Arial, Helvetica, sans-serif; 
-       font-size: 1.543em;
-       margin: 0px 10px 100px 60px;
-       padding: 10px;
-      
-   }
-   
-   #section1-h1-about-me {
-       margin-top: 20px;
+    height: 800px;
+    width: 1440px;
+    border: double white 1.9rem;
+}
+
+#p1 {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.543em;
+    margin: 0px 10px 100px 60px;
+    padding: 10px;
+
+}
+
+#section1-h1-about-me {
+    margin-top: 20px;
     padding: 20px;
-     color: white;
-     font-size: 2.3rem;
-   }
-       
-   #Capa_1 {
-        color: white;
-         height: 450px;
-         width: 350px;
-         display: block;
-         margin: 0px auto;
-       }
-     
+    color: white;
+    font-size: 2.3rem;
+}
+
+#Capa_1 {
+    color: white;
+    height: 450px;
+    width: 350px;
+    display: block;
+    margin: 0px auto;
+}
+
 
 /* - - - - - - - - - - -Section 3 - - - - - - - - -
 #section3 {
@@ -196,38 +203,76 @@ margin-top: 20%;
     font-size: .95rem;
     font-weight: bold;
     font-family: "PT Sans";
-    background-color:#1C203E;
+    background-color: #1C203E;
     color: white;
-   
+
 }
+
 /* - - - Flash class and keyframe animation - - -*/
-.flashit{
-    color:#f2f;
-      -webkit-animation: flash linear 1.5s infinite;
-      animation: flash linear 1.5s infinite;
-  }
-  @-webkit-keyframes flash {
-      0% { opacity: 1; } 
-      50% { opacity: .1; } 
-      100% { opacity: 1; }
-  }
-  @keyframes flash {
-      0% { opacity: 1; } 
-      50% { opacity: .1; } 
-      100% { opacity: 1; }
-  }
-.flashit2{
-    color:#f2f;
-      -webkit-animation: flash linear 1.5s infinite;
-      animation: flash linear 1.5s infinite;
-  }
-  @-webkit-keyframes flash {
-      0% { opacity: 1; } 
-      50% { opacity: .1; } 
-      100% { opacity: 1; }
-  }
-  @keyframes flash {
-      0% { opacity: 1; } 
-      50% { opacity: .1; } 
-      100% { opacity: 1; }
-  }
+.flashit {
+    color: #f2f;
+    -webkit-animation: flash linear 1.5s infinite;
+    animation: flash linear 1.5s infinite;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flashit2 {
+    color: #f2f;
+    -webkit-animation: flash linear 1.5s infinite;
+    animation: flash linear 1.5s infinite;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
