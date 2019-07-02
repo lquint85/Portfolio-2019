@@ -66,8 +66,7 @@ body {
 
 
 #section1-h1-1 {
-    margin-top: 20%;
-
+margin-top: 20%;
     color: white;
     font-size: 2.3rem;
 
@@ -91,29 +90,63 @@ body {
     
 } */
 
-
-/* - - - - - - - - - - - about me section- - - - - - - - -*/
-#About-Me {
- background-color: skyblue;
-  height: 600px;
-  width: 1400px;
-  margin-left: 20px;
-}
-#p1 {
-    color: white;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 2em;
-    margin: 40px 60px 80px 60px;
-    padding: 120px;
-}
 /* - - - - - - - - - - - Landing- - - - - - - - -*/
 #chevrondown {
     color: white;
     margin: 40px 20px 40px 670px;
 }
 
-/* - - - - - - - - - - -Section 3 - - - - - - - - -*/
+
+/* - - - - - - - - - - - Project Section- - - - - - - - -*/
+#projects {
+    background-color: black;
+     height: 800px;
+     width: 1440px;
+     margin-left: 0px auto;
+   }
+
+#section1-h1-project {
+   padding: 60px;
+    color: white;
+    font-size: 2.3rem;
+
+}
+   #p1 {
+       color: white;
+       font-weight: bold;
+       font-family: Arial, Helvetica, sans-serif; 
+       font-size: 1.8em;
+       margin: 0px 10px 80px 60px;
+       padding: 20px;
+   }
+ 
+
+/* - - - - - - - - - - - about me section- - - - - - - - -*/
+#About-Me {
+    background-color: skyblue;
+     height: 700px;
+     width: 1400px;
+     margin-left: 20px;
+   }
+   #p1 {
+       color: white;
+       font-weight: bold;
+       font-family: Arial, Helvetica, sans-serif; 
+       font-size: 1.8em;
+       margin: 0px 10px 80px 60px;
+       padding: 20px;
+   }
+       
+   #Capa_1 {
+        color: white;
+         height: 450px;
+         width: 350px;
+         display: block;
+         margin: 15px auto;
+       }
+
+
+/* - - - - - - - - - - -Section 3 - - - - - - - - -
 #section3 {
     background-color: cadetblue;
 
@@ -125,7 +158,7 @@ body {
     color: white;
 
 
-}
+} */
 
 /* - - - - - - - - - - -Footer - - - - - - - - -*/
 #footer {
