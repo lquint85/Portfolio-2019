@@ -46,16 +46,26 @@ body {
 }
 
 #pj1 {
-    margin-left: 42px;
+    margin-left: 20px;
+    color: #999;
+}
+#pj1 {
+    margin-left: 20px;
+    color: white;
 }
 
 #pj2 {
-    margin-left: 42px;
+    margin-left: 20px;
+    color: white;
 }
 
 #pj3 {
-    margin-left: 42px;
+    margin-left: 20px;
+    color: white;
+    
 }
+
+
 
 
 /* - - - - - - - - - - -Section 1 - - - - - - - - -*/
@@ -135,16 +145,46 @@ body {
 
 #box {
 
-    border: solid white;
+    border-radius: 20px, white;
     height: 300px;
     width: 320px;
     margin-top: 60px;
-    margin-left: 48px;
+    margin-left: 50px;
 }
 
 #project_pic {
     height: 295px;
     width: 320px;
+}
+
+.a_projects{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    margin: 0px 50px 80px 60px;
+    padding: 20px;
+
+}
+.a_projects_2{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    margin: 20px 20px 80px 80px;
+    padding: 22px;
+
+}
+
+
+}
+#pj :hover {
+  color: red;
+
+}
+#pj  {
+  color: white;
+
 }
 
 
