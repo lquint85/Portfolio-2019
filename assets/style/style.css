@@ -22,8 +22,8 @@ body {
 
 #navName {
     height: 20px;
-    margin-top: -19px;
-    margin-left: 1125px;
+    margin-top: 200px;
+    margin-left: 200px;
     color: white;
     font-family: "PT Sans";
     font-size: 1.75rem;
@@ -98,8 +98,8 @@ body {
 #chevronContainer {
     height: 200px;
     width: 200px;
-    color: black;
-    margin: 20px 20px 0px 670px; 
+    color:white;
+  
  }
 #chevrondown {
     color: white;
