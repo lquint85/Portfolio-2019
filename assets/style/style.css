@@ -94,14 +94,13 @@ body {
     color: white;
 }
 
-/* - - - - - - - - - - -Section 2 - - - - - - - - -
-#section2 {
-    background-image: url('../images/bg_section1.1.jpg');
-    padding: 15%;
-    
-} */
-
 /* - - - - - - - - - - - Landing- - - - - - - - -*/
+#chevronContainer {
+    height: 200px;
+    width: 200px;
+    color: black;
+    margin: 20px 20px 0px 670px; 
+ }
 #chevrondown {
     color: white;
     margin: 20px 20px 0px 670px;
@@ -116,6 +115,76 @@ body {
     color: white;
     margin: 20px 20px 0px 685px;
 }
+
+/* - - - Flash class and keyframe animation - - -*/
+.flashit {
+    color: #f2f;
+    -webkit-animation: flash linear 1.5s infinite;
+    animation: flash linear 1.5s infinite;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flashit2 {
+    color: #f2f;
+    -webkit-animation: flash linear 1.5s infinite;
+    animation: flash linear 1.5s infinite;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 
 
 /* - - - - - - - - - - - Project Section- - - - - - - - -*/
@@ -162,14 +231,14 @@ body {
     height: 150px;
     width: 200px;
     margin-top: -18px;
-    margin-left: 45px;
+    margin-left: 55px;
     color: white;
 }
 #box3 {
     height: 150px;
     width: 200px;
     margin-top: -5px;
-    margin-left: 45px;
+    margin-left: 55px;
     color: white;
 }
 
@@ -278,71 +347,3 @@ body {
 
 }
 
-/* - - - Flash class and keyframe animation - - -*/
-.flashit {
-    color: #f2f;
-    -webkit-animation: flash linear 1.5s infinite;
-    animation: flash linear 1.5s infinite;
-}
-
-@-webkit-keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.flashit2 {
-    color: #f2f;
-    -webkit-animation: flash linear 1.5s infinite;
-    animation: flash linear 1.5s infinite;
-}
-
-@-webkit-keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}

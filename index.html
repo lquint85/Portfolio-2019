@@ -27,98 +27,124 @@
 <body>
 
 
-    <!-- - - - - - - - - - - - - - - - - Section 1- - - - - - - - - - - - - - - -->
+ <!-- - - - - - - - - - - - - - - - -  BACKGROUND container  - - - - - - - - - - - - - - - - - - - --->
 
-    <div id="section1"
-        class=" uk-container-viewport uk-height-viewport uk-background-cover uk-background-fixed uk-background-center uk-overflow-hidden"
-        uk-parallax="viewport: 0.5;">
-        <!-- - - - -- - - - - - - - - - - - - - - - NAVBAR - - - - - - - - - - - - - - - - - - - --->
-        <div class="uk-position-relative ">
-            <img src="" alt="">
-            <div class="uk-position-top" uk-sticky="bottom">
-                <nav id="navBar" class="uk-navbar-container uk-navbar-transparent" uk-navbar uk-sticky="bottom">
+<div id="section1"class=" uk-container-viewport uk-height-viewport uk-background-cover uk-background-fixed uk-background-center uk-overflow-hidden"uk-parallax="viewport: 0.5;">
+ 
+ <!-- - - - -- - - - - - - - - - - - - - -  NAVBAR  - - - - - - - - - - - - - - - - - - -  - - - - --->
 
-                </nav>
-            </div>
 
+ <div class="uk-position-relative ">
+     <img src="" alt="">
+        <div class="uk-position-top" uk-sticky="bottom">
+            
+            <nav 
+                id="navBar" class="uk-navbar-container uk-navbar-transparent" uk-navbar uk-sticky="bottom">
+            </nav>
+            
         </div>
-        <a id="menuIcon" class="uk-animation-toggle uk-animation-slide-left" tabindex="1" href="#offcanvas-usage"
-            uk-toggle <span uk-icon="icon: menu; ratio: 1.55 "></span></a>
-        <a id="menuIcon" class="uk-animation-toggle uk-animation-slide-left" tabindex="0"
-            href="https://github.com/lquint85" <span uk-icon="icon: github; ratio: 1.55 "></span></a>
-        <a id="menuIcon" class="uk-animation-toggle uk-animation-slide-bottom" tabindex="0"
-            href="https://www.linkedin.com/in/luis-quintero-0101" <span
-            uk-icon="icon: linkedin; ratio: 1.55 "></span></a>
-        <a id="menuIcon" class="uk-animation-toggle uk-animation-slide-right" tabindex="0"
-            href="mailto:lquint85@gmail.com" <span uk-icon="icon: google; ratio: 1.55 "></span></a>
+ </div>
+           
 
-        <div id="offcanvas-usage" uk-offcanvas="mode: slide">
+<a 
+    id="menuIcon" class="uk-animation-toggle uk-animation-slide-left" tabindex="1" href="#offcanvas-usage" uk-toggle <span uk-icon="icon: menu; ratio: 1.55 "></span>
+</a>
+    
+<a 
+    id="menuIcon" class="uk-animation-toggle uk-animation-slide-left" tabindex="0" href="https://github.com/lquint85" <span uk-icon="icon: github; ratio: 1.55 "></span>
+</a>
+            
+<a 
+    id="menuIcon" class="uk-animation-toggle uk-animation-slide-bottom" tabindex="0"href="https://www.linkedin.com/in/luis-quintero-0101" <span uk-icon="icon: linkedin; ratio: 1.55 "></span>
+</a>
+            
+<a 
+    id="menuIcon" class="uk-animation-toggle uk-animation-slide-right" tabindex="0"href="mailto:lquint85@gmail.com" <span uk-icon="icon: google; ratio: 1.55 "></span>
+</a>
+        
+        
+<div id="offcanvas-usage" uk-offcanvas="mode: slide">
 
-            <div class="uk-offcanvas-bar">
+ <div class="uk-offcanvas-bar">
+        
+    <button 
+        class="uk-offcanvas-close" type="button" uk-close>
+    </button>
 
-                <button class="uk-offcanvas-close" type="button" uk-close></button>
-
-                <ul class="uk-nav uk-nav-default uk-parent">
-                    <li class="uk-nav-header">Home</li>
-                    <li class="uk-nav-divider"></li>
-                    <li><a href="#p1"><span class="uk-margin-small-right" uk-icon="icon: cog; ratio: 1.5"></span> About
-                        </a></li>
-                    <li><a href="https://drive.google.com/open?id=1R70z7tZjyMgROQzB8dFDJdNVoetTlmUT"><span
-                                class="uk-margin-small-right" uk-icon="icon: file-edit; ratio: 1.5"></span> Resume</a>
-                    </li>
-                    <li><a href="mailto:lquint85@gmail.com"><span class="uk-margin-small-right"
-                                uk-icon="icon: receiver; ratio: 1.5"></span> Contact</a></li>
-                    <li class="uk-parent">
-                        <a class="uk-parent"><a href="#projects"><span class="uk-margin-small-right"
-                                    uk-icon="icon: paint-bucket; ratio: 1.5"></span> Projects</a>
-                            <!-- <ul class="uk-nav-sub">
-                                <li>
-                                    <span id="pj1" class="uk-margin-small-right" uk-icon="icon: pencil; ratio: 1"><a
-                                            id="pj1" href="https://team-git-it.herokuapp.com/">Gather</a></span>
-                                </li>
-
-                                <li>
-                                    <span id="pj2" class="uk-margin-small-right" uk-icon="icon: happy; ratio: 1">
-                                        <a id="pj2" href="https://api-amazons.github.io/Budzz/"> Buddz</a><span>
-
-                                </li>
-
-                                <li>
-                                    <span id="pj3" class="uk-margin-small-right" uk-icon="icon: world; ratio: 1">
-                                        <a id="pj3" href="https://team-sassy.herokuapp.com/"> OTF</a><span>
-                                </li>
-                            </ul> -->
-                    </li>
+    <ul class="uk-nav uk-nav-default uk-parent">
+                
+        <li 
+                class="uk-nav-header">Home
+        </li>
+                
+        <li 
+                class="uk-nav-divider">
+        </li>
+                
+         <li>
+                <a href="#p1"><span class="uk-margin-small-right" uk-icon="icon: cog; ratio: 1.5"></span> About</a>
+        </li>
+                    
+         <li>
+                <a href="https://drive.google.com/open?id=1R70z7tZjyMgROQzB8dFDJdNVoetTlmUT"><span class="uk-margin-small-right" uk-icon="icon: file-edit; ratio: 1.5"></span> Resume</a>
+        </li>
+                    
+        <li>
+                <a href="mailto:lquint85@gmail.com"><span class="uk-margin-small-right"uk-icon="icon: receiver; ratio: 1.5"></span> Contact</a>
+        </li>
+                        
+        <li class="uk-parent">
+                <a class="uk-parent"><a href="#projects"><span class="uk-margin-small-right"uk-icon="icon: paint-bucket; ratio: 1.5"></span> Projects</a>
+        </li>
 
 
-                    <li class="uk-nav-divider"></li>
+        <li class="uk-nav-divider">
 
-            </div>
-        </div>
-        <h1 id="navName" class="uk-text-center uk-text uk-animation-toggle uk-animation-slide-right" tabindex="0">Luis
-            Quintero </h1>
-
-        <!-- - - - - - - - - - - - - - - - - - Landing - - - - - - - - - - - - - - - - - - - - - -->
-
-        <div>
-            <h1 id="section1-h1-1" class="uk-text-center uk-textuk-animation-toggle uk-animation-slide-bottom"
-                tabindex="5">Full Stack</h1>
-            <h1 id="section1-h1-2" class="uk-text-center uk-text uk-animation-toggle uk-animation-slide-bottom"
-                tabindex="5">Web Developer </h1>
-        </div>
-        <div>
-            <span class="flashit" id="chevrondown" uk-icon="icon: triangle-down; ratio: 2.5"></span>
-            <span class="flashit2" id="chevrondown2" uk-icon="icon: triangle-down; ratio: 1.5"></span>
-            <span class="flashit2" id="chevrondown3" uk-icon="icon: triangle-down; ratio: 1"></span>
-
-        </div>
-
-        <!-- <p id="section1p1" class="uk-text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum est
-            beatae animi
-            consequatur non doloribus.</p> -->
+        </li>
+     </ul>
     </div>
+</div>
+     
+     <div>
+            <h1 
+                id="section1-h1-1" class="uk-text-center uk-textuk-animation-toggle uk-animation-slide-bottom"tabindex="5">Full Stack
+            </h1>
+                    
+            
+            <h1 
+                id="section1-h1-2" class="uk-text-center uk-text uk-animation-toggle uk-animation-slide-bottom"tabindex="5">Web Developer 
+            </h1>
+                    
+            <div id="chevronContainer">
+                
+                <span class="flashit" id="chevrondown" uk-icon="icon: triangle-down; ratio: 2.5"></span>
+                <span class="flashit2" id="chevrondown2" uk-icon="icon: triangle-down; ratio: 1.5"></span>
+                <span class="flashit2" id="chevrondown3" uk-icon="icon: triangle-down; ratio: 1"></span>
+                
+            </div>
+    </div>
+   
+    </div>
+</div>
 
-    <!-- - - - - - - - - - - - - - - - - - Project Section - - - - - - - - - - - - - - - - - - - - - -->
+
+    
+    
+    <!-- <div>
+            <h1 
+                id="navName" class="uk-text-center uk-text uk-animation-toggle uk-animation-slide-right" tabindex="0">Luis Quintero 
+            </h1>
+    </div> -->
+
+        
+      
+
+<!-- - - - - - - - - - - - - - - - - -  - - Landing - - - - - - - - - - - - - - - - - - - - -  - - - - - --->
+
+
+
+
+<!-- - - - - - - - - - - - - - - - - - Project Section - - - - - - - - - - - - - - - - - - - - - - -  ---->
 
     <div id="projects">
         <h1 id="section1-h1-project" class="uk-text-center uk-text uk-animation-toggle uk-animation-slide-bottom"
