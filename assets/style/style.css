@@ -8,7 +8,7 @@ body {
 
 #menuIcon {
     height: 20px;
-    margin-left: 40px;
+    margin-left: 35px;
     color: #FFFFFF;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
     color: #FFFFFF;
@@ -31,8 +31,9 @@ body {
 
 #name {
     margin-top: -30px;
-    margin-left: 1020px;
+    margin-left: 1100px;
     color: white;
+    animation-delay: 300s;
 }
 
 #pj1 {
@@ -90,6 +91,13 @@ body {
 
    background-color: #1C203E; ;
    
+}
+
+#section1-h1-project {
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 2.3rem;
 }
 
 #chevrondown {
@@ -260,6 +268,7 @@ body {
 
 
 /* - - - - - - - - - - - About Me Section- - - - - - - - -*/
+
 #aboutMeSection {
     background-color: skyblue;
     border: double white 1.9rem;
@@ -290,20 +299,6 @@ body {
     margin: -47px auto;
 }
 
-
-/* - - - - - - - - - - -Section 3 - - - - - - - - -
-#section3 {
-    background-color: cadetblue;
-
-}
-
-#section3h1 {
-    padding: 30%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-
-
-} */
 
 /* - - - - - - - - - - -Footer - - - - - - - - -*/
 #footer {

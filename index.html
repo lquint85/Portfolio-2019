@@ -31,7 +31,7 @@
 
 <div id="landingSection"class=" uk-container-viewport uk-height-viewport uk-background-cover uk-background-fixed uk-background-center uk-overflow-hidden"uk-parallax="viewport: 0.5;">
  
- <!-- - - - -- - - - - - - - - - - - - - -  NAVBAR  - - - - - - - - - - - - - - - - - - - - - - - --->
+ <!-- - - - -- - - - - - - - - - - - - - -    NAV   - - - - - - - - - - - - - - - - - - - - - - - --->
 
 
  <div class="uk-position-relative ">
@@ -46,29 +46,30 @@
  </div>
            
 
-<a 
-    id="menuIcon" class="uk-animation-toggle uk-animation-slide-left" tabindex="1" href="#offcanvas-usage" uk-toggle <span uk-icon="icon: menu; ratio: 1.55 "></span>
+<a uk-scrollspy="cls:uk-animation-fade; delay: 500"
+    id="menuIcon"  href="#offcanvas-usage" uk-toggle <span uk-icon="icon: menu; ratio: 1.55 "></span>
 </a>
     
-<a 
-    id="menuIcon" class="uk-animation-toggle uk-animation-slide-left" tabindex="0" href="https://github.com/lquint85" <span uk-icon="icon: github; ratio: 1.55 "></span>
+<a uk-scrollspy="cls:uk-animation-fade; delay: 850"
+    id="menuIcon"  tabindex="0" href="https://github.com/lquint85" <span uk-icon="icon: github; ratio: 1.55 "></span>
 </a>
             
-<a 
-    id="menuIcon" class="uk-animation-toggle uk-animation-slide-bottom" tabindex="0"href="https://www.linkedin.com/in/luis-quintero-0101" <span uk-icon="icon: linkedin; ratio: 1.55 "></span>
+<a uk-scrollspy="cls:uk-animation-fade; delay: 1150"
+    id="menuIcon"  tabindex="0"href="https://www.linkedin.com/in/luis-quintero-0101" <span uk-icon="icon: linkedin; ratio: 1.55 "></span>
 </a>
             
-<a 
-    id="menuIcon" class="uk-animation-toggle uk-animation-slide-right" tabindex="0"href="mailto:lquint85@gmail.com" <span uk-icon="icon: google; ratio: 1.55 "></span>
+<a uk-scrollspy="cls:uk-toggle uk-animation-fade; delay: 1500"
+    id="menuIcon"  tabindex="0"href="mailto:lquint85@gmail.com" <span uk-icon="icon: google; ratio: 1.55 "></span>
 </a>
 
-<div id="name">
+<div uk-scrollspy="cls:uk-toggle uk-animation-fade; delay: 1850">
         <h1 
-           class="uk-text-center uk-text uk-animation-toggle uk-animation-slide-right" tabindex="0">Luis Quintero 
+            id="name">Luis Quintero 
         </h1>
 </div>
+
         
-        
+ <!-- - - - -- - - - - - - - - - - - - - -    MENU   - - - - - - - - - - - - - - - - - - - - - - - --->
 <div id="offcanvas-usage" uk-offcanvas="mode: slide">
 
  <div class="uk-offcanvas-bar">
@@ -100,7 +101,7 @@
         </li>
                         
         <li class="uk-parent">
-                <a class="uk-parent"><a href="#projects"><span class="uk-margin-small-right"uk-icon="icon: paint-bucket; ratio: 1.5"></span> Projects</a>
+                <a class="uk-parent"><a href="#projectSection"><span class="uk-margin-small-right"uk-icon="icon: paint-bucket; ratio: 1.5"></span> Projects</a>
         </li>
 
 
@@ -113,26 +114,25 @@
 
 </div>
 
-    
-    
+<!-- - - - -- - - - - - - - - - - - - - -    MENU END   - - - - - - - - - - - - - - - - - - - - - - - --->
 
 </div>
      
-     <div>
+     <div >
             <h1 
-                id="section1-h1-1" class="uk-text-center uk-textuk-animation-toggle uk-animation-slide-bottom"tabindex="5">Full Stack
+                uk-scrollspy="cls:uk-text-center uk-animation-slide-bottom; delay: 2100"id="section1-h1-1" >Full Stack
             </h1>
                     
             
             <h1 
-                id="section1-h1-2" class="uk-text-center uk-text uk-animation-toggle uk-animation-slide-bottom"tabindex="5">Web Developer 
+                uk-scrollspy="cls:uk-text-center uk-animation-slide-bottom; delay: 2400"id="section1-h1-2" >Web Developer 
             </h1>
                     
-            <div >
+            <div  >
                 
-                <span class="flashit" id="chevrondown" uk-icon="icon: triangle-down; ratio: 2.5"></span>
-                <span class="flashit2" id="chevrondown2" uk-icon="icon: triangle-down; ratio: 1.5"></span>
-                <span class="flashit2" id="chevrondown3" uk-icon="icon: triangle-down; ratio: 1"></span>
+                <span uk-scrollspy="cls:uk-text-center uk-animation-slide-bottom; delay: 3000" class="flashit" id="chevrondown" uk-icon="icon: triangle-down; ratio: 2.5"></span>
+                <span uk-scrollspy="cls:uk-text-center uk-animation-slide-bottom; delay: 3300"class="flashit2" id="chevrondown2" uk-icon="icon: triangle-down; ratio: 1.5"></span>
+                <span uk-scrollspy="cls:uk-text-center uk-animation-slide-bottom; delay: 3600"class="flashit2" id="chevrondown3" uk-icon="icon: triangle-down; ratio: 1"></span>
                 
             </div>
 
@@ -142,7 +142,7 @@
     </div>
 </div>
 
-<!-- - - - - - - - - - - - - - - - - - Project Section - - - - - - - - - - - - - - - - - - - - - - -  ---->
+<!-- - - - - - - - - - - - - - - - - - PROJECT SECTION - - - - - - - - - - - - - - - - - - - - - - -  ---->
 
     <div id="projectSection"class=" uk-container-viewport uk-height-viewport uk-background-cover uk-background-fixed uk-background-center uk-overflow-hidden"uk-parallax="viewport: 0.5;">
         
