@@ -3,7 +3,7 @@ body {
 }
 
 
-/* - - - - - - - - - - -NavBar- - - - - - - - -*/
+/* - - - - - - - - - - -NavBar/Menu- - - - - - - - -*/
 
 
 #menuIcon {
@@ -58,8 +58,8 @@ body {
 
 
 
-/* - - - - - - - - - - -Section 1 - - - - - - - - -*/
-#section1 {
+/* - - - - - - - - - - -Landing Section - - - - - - - - -*/
+#landingSection {
 
     background-image: url('../images/bg_section1.3.jpg');
     border: double white 1.9rem;
@@ -84,13 +84,14 @@ body {
     color: white;
 }
 
-/* - - - - - - - - - - - Landing- - - - - - - - -*/
-#chevronContainer {
-    height: 200px;
-    width: 200px;
-    color:white;
-  
- }
+/* - - - - - - - - - - - Project Section - - - - - - - - -*/
+
+#projectSection {
+
+   background-color: #1C203E; ;
+   
+}
+
 #chevrondown {
     color: white;
     margin: 20px 20px 0px 670px;
@@ -104,93 +105,6 @@ body {
 #chevrondown3 {
     color: white;
     margin: 20px 20px 0px 685px;
-}
-
-/* - - - Flash class and keyframe animation - - -*/
-.flashit {
-    color: #f2f;
-    -webkit-animation: flash linear 1.5s infinite;
-    animation: flash linear 1.5s infinite;
-}
-
-@-webkit-keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-.flashit2 {
-    color: #f2f;
-    -webkit-animation: flash linear 1.5s infinite;
-    animation: flash linear 1.5s infinite;
-}
-
-@-webkit-keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-
-
-/* - - - - - - - - - - - Project Section- - - - - - - - -*/
-#projects {
-    background-color: #1C203E;
-    height: 830px;
-    width: 1440px;
-    margin-left: 0px auto;
-}
-
-#section1-h1-project {
-    margin-left: 19px;
-    padding: 60px;
-    color: white;
-    font-size: 2.3rem;
-
 }
 
 #p1 {
@@ -265,8 +179,6 @@ body {
 
 }
 
-
-}
 #pj :hover {
   color: red;
 
@@ -276,12 +188,80 @@ body {
 
 }
 
+/* - - - Flash class and keyframe animation - - -*/
+.flashit {
+    color: #f2f;
+    -webkit-animation: flash linear 1.5s infinite;
+    animation: flash linear 1.5s infinite;
+}
 
-/* - - - - - - - - - - - about me section- - - - - - - - -*/
-#About-Me {
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flashit2 {
+    color: #f2f;
+    -webkit-animation: flash linear 1.5s infinite;
+    animation: flash linear 1.5s infinite;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+/* - - - - - - - - - - - About Me Section- - - - - - - - -*/
+#aboutMeSection {
     background-color: skyblue;
-    height: 800px;
-    width: 1440px;
     border: double white 1.9rem;
 }
 
