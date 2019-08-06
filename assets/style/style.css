@@ -20,15 +20,7 @@ body {
     color: red;
 }
 
-#navName {
-    height: 20px;
-    margin-top: 200px;
-    margin-left: 200px;
-    color: white;
-    font-family: "PT Sans";
-    font-size: 1.75rem;
-    font-weight: bolder;
-}
+
 
 #logo-small {
     margin-left: 10px;
@@ -37,12 +29,10 @@ body {
 
 }
 
-#nameLogo {
-    margin-top: -27px;
-    margin-Left: 90px;
-    font-size: 1.75rem;
+#name {
+    margin-top: -30px;
+    margin-left: 1020px;
     color: white;
-
 }
 
 #pj1 {
