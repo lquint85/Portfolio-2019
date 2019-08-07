@@ -83,20 +83,12 @@ body {
     color: white;
 }
 
-
-/* #chevronContainer {
-    height: 250px;
-    width: 250px;
-    padding: 10px;
-    margin: 0px 60px 0px 550px;
-    
-} */
 .col-med-12 {
    margin: 0px 0px 0px 660px;
 }
 #chevrondown {
     color: white;
-    margin-left: 460px;
+    margin-left: 668px;
     float: left;
 }
 
