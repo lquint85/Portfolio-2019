@@ -6,7 +6,7 @@ you that you have come to the right place. I must advise, this is just a glimpse
 on this new journey that I have embarked on. I hope you find what you need to confirm that I am the person you want to
 hire. 
 
-#Framewoks and Libraries
+
  ## Frameworks and Libraries
   Uikit, 
   HTML5,
